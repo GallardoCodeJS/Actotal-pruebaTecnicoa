@@ -1,0 +1,112 @@
+/* RESPONSIVE */
+/* @media (min-width:768px){ */
+    @media only screen and (max-width: 768px){
+        
+    .showuser h1{
+        margin: auto;
+        width: fit-content;
+        padding: 5px;
+        /* padding-bottom: 5%; */
+    }
+    
+    /* SHOW USER DIV */
+    .showuser{
+        grid-column: 1;
+        grid-row: 2;
+        float: left;
+        background-color: #1C2833;
+        /* border: 1px solid white; */
+    }
+
+    .showuser-section{  
+        width:max-content;
+        max-height: 80%;
+        height: 650px;
+        overflow: auto;
+    }
+
+    .viewUser {
+        display: flex;
+        justify-content: left;
+        overflow: hidden;    
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    .viewUserson {
+        padding: 1px;
+        margin-bottom: 2px;
+        width: 100%;
+        height: fit-content;
+        text-align: left;
+        background-color: #154360;
+        /* background-color: yellow; */
+    }
+
+    .viewUserson p{
+        margin: 0 auto;
+        padding: 4px;
+        font-size: 22px;
+    }
+
+    .viewUserson span{
+        color: #3498DB;
+        padding-right: 2%;
+    }
+}
+
+/* @media only screen and (max-width: 768px) { */
+@media only screen and (min-width: 768px) and (max-width: 1230px) {
+    
+    .showuser h1{
+        margin: auto;
+        width: fit-content;
+        padding: 5px;
+        /* padding-bottom: 5%; */
+    }
+    
+    /* SHOW USER DIV */
+    .showuser{
+        grid-column: 1;
+        grid-row: 2;
+        float: left;
+        background-color: #1C2833;
+        /* border: 1px solid white; */
+    }
+
+    .showuser-section{  
+        width:max-content;
+        max-height: 80%;
+        height: 650px;
+        overflow: auto;
+    }
+
+    .viewUser {
+        display: flex;
+        justify-content: left;
+        overflow: hidden;    
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    .viewUserson {
+        padding: 1px;
+        margin-bottom: 2px;
+        width: 100%;
+        height: fit-content;
+        text-align: left;
+        background-color: #154360;
+        /* background-color: yellow; */
+    }
+
+    .viewUserson p{
+        margin: 0 auto;
+        padding: 4px;
+        font-size: 22px;
+    }
+
+    .viewUserson span{
+        color: #3498DB;
+        padding-right: 2%;
+    }
+}

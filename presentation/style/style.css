@@ -1,0 +1,125 @@
+body {
+    /*background-color: #1C2833;*/
+    background-color: grey;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+header{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+h1{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: #3498DB;
+}
+
+.newuser h1{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    padding-bottom: 10%;
+}
+
+.showuser h1{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    padding-bottom: 10%;
+}
+
+/* Div de img*/
+.main-img{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    /*border: 1px solid red;*/
+}
+
+/* style of img */
+.main-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Main Div*/
+.main-form{
+    /*grid-template-columns: repeat(3, 1fr); Agregar este cuando tenga 3 grid uno para la raya del medio */
+
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    border: 1px solid yellow;
+}
+
+.newuser{
+    grid-column: 1;
+    grid-row: 1;
+    /*background-color: red;*/
+}
+.showuser{
+    grid-column: 2;
+    grid-row: 1;
+    /*background-color: violet;*/
+}
+
+.showuser table,th,td{
+    border-collapse: collapse;
+}
+
+.showuser-table{  
+    width:auto;
+    /*height:30%;*/
+    max-height: 50%;
+    overflow:auto;
+    border: 3px solid green;
+}
+
+td, th {
+    width: 4rem;
+    height: 2rem;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+th {
+    background: lightblue;
+    border-color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+td{
+    text-align: right;
+    padding-right: 5px;
+}
+
+/*
+.table td,th{
+    border: 1px solid #ddd;
+    background-color: #3498DB;
+    padding: 8px;
+}
+*/
+
+input{
+    width: 150px;
+    height: 25px;
+    margin: 2px;
+    background-color: #3498DB;
+    border-style: none;
+}
